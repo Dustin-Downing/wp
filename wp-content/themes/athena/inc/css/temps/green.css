@@ -1,0 +1,94 @@
+/*
+    Created on : Sep 26, 2015, 11:24:49 PM
+    Author     : Bilal
+*/
+
+
+a,a:visited{
+    color: #bd2525;
+}
+
+a:hover,
+a:focus,
+.site-info a:hover{
+    color: #9a1e1e;
+}
+
+ul.athena-nav > li.menu-item.current-menu-item a,
+ul.athena-nav > li.menu-item.current-menu-parent a,
+ul.athena-nav > li.menu-item a:hover{
+
+    border-bottom: 2px solid #9a1e1e;
+
+}
+
+ul.athena-nav > li > ul li.current-menu-item > a{
+    color: #bd2525;
+}
+
+ul.athena-nav ul li a:hover{
+    color: #9a1e1e;
+}
+
+.athena-button.primary,
+button,
+input[type="button"],
+input[type="submit"],
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt{
+    background: #bd2525;
+    color: #fff;
+}
+
+.athena-button.primary:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover{
+    background: #9a1e1e;
+}
+
+.woocommerce .woocommerce-message{
+    border-top-color: #bd2525;
+}
+
+.woocommerce .woocommerce-message:before{
+    color: #bd2525;
+}
+
+.main-navigation .athena-cart,
+.athena-mobile-cart .athena-cart{
+    background: #bd2525 !important;
+    transition: 0.25s all ease-in-out;
+    -moz-transition: 0.25s all ease-in-out;
+    -webkit-transition: 0.25s all ease-in-out;
+    top: -5px;
+}
+
+.main-navigation .athena-cart:hover,
+.athena-mobile-cart .athena-cart:hover{
+    background: #9a1e1e !important;
+}
+
+#athena-featured,
+.woocommerce span.onsale{
+    background: #bd2525;
+    color: #fff;
+}
+#athena-featured .fa{
+    color: #fff;
+}
+
+#authica-social a:hover{
+    color: #9a1e1e;
+}
+
+.scroll-top:hover{
+    background: #9a1e1e;
+}
+
+#athena-overlay-trigger{
+    border-color: transparent transparent #bd2525 transparent;
+}

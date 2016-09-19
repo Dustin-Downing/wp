@@ -23,10 +23,10 @@
 define('DB_NAME', 'wok');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'dustin');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'ec2-54-218-99-86.us-west-2.compute.amazonaws.com');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

@@ -1,0 +1,16 @@
+1) make git repo
+2) mkdir ex/
+3) git init
+4) git remote add origin https://github.com/user/repo.git
+5) download and unzip wordpress into dir
+6) go to 'sandbox/wp' and add 'dp.php' file to 'ex/wp-content/'
+7) spin up EC2 instance following http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html
+8) login to mysql and add new user following https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
+9) In AWS EC2 dashboard add inbound rules for (HTTP, TCP, 80, 0.0.0.0/0) (MYSQL, TCP, 3306, choose my ip)
+10) go to 'sandbox/wp' and add 'deploy.php' file to 'ex/'
+11) generate SSH key with https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+12) go to github/ex/settings and add a new deploy key
+13) on server goto /var/www/html and git init
+14) git remote add origin git@github.com:Dustin-Downing/ex.git
+15) git pull origin master
+16) goto github/ex/setting and add a new webhook "FQDN"/deploy.php

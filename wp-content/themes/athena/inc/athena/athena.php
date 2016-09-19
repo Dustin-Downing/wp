@@ -297,8 +297,8 @@ function athena_render_homepage() { ?>
 
                 <div class="overlay">
                     <div class="row">
-
-                        <div class="col-sm-6 parallax">
+                        <div class="col-xs-0 col-sm-2"></div>
+                        <div class="col-sm-6 parallax" style="">
                             <h2 class="header-text animated slideInDown slide1-header"><?php echo esc_attr( get_theme_mod( 'featured_image1_title', __( 'Welcome to Athena', 'athena' )  ) ); ?></h2>
 
                             <?php if( get_theme_mod( 'slide1_button1_text', 'True' ) ) : ?>
@@ -330,6 +330,9 @@ function athena_render_homepage() { ?>
                 <div class="overlay">
 
                     <div class="row">
+                      <div class="col-sm-2">
+
+                      </div>
 
                         <div class="col-sm-6 parallax">
                             <h2 class="header-text animated slideInDown slide2-header"><?php echo esc_attr( get_theme_mod( 'featured_image2_title', __( 'Welcome to Athena', 'athena' )  ) ); ?></h2>

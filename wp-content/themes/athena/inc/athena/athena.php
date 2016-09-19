@@ -293,7 +293,7 @@ function athena_render_homepage() { ?>
 
         <div id="athena-slider" class="hero">
 
-            <div id="slide1" data-thumb="<?php echo esc_url( get_theme_mod('featured_image1', get_template_directory_uri() . '/inc/images/athena.jpg' ) ); ?>" data-src="<?php echo esc_url( get_theme_mod( 'featured_image1', get_template_directory_uri() . '/inc/images/athena.jpg' ) ); ?>">
+            <div id="slide1" data-thumb="/wp-content/uploads/2016/09/AdobeStock_20703315_WM-150x150.jpeg" data-src="/wp-content/uploads/2016/09/AdobeStock_20703315_WM.jpeg">
 
                 <div class="overlay">
                     <div class="row">
@@ -325,7 +325,7 @@ function athena_render_homepage() { ?>
 
             </div>
 
-            <div id="slide2" data-thumb="<?php echo esc_url(get_theme_mod('featured_image2', get_template_directory_uri() . '/inc/images/athena2.jpg')); ?>" data-src="<?php echo esc_url(get_theme_mod('featured_image2', get_template_directory_uri() . '/inc/images/athena2.jpg')); ?>">
+            <div id="slide2" data-thumb="/wp-content/uploads/2016/09/AdobeStock_44441288_WM-150x150.jpeg" data-src="/wp-content/uploads/2016/09/AdobeStock_44441288_WM.jpeg">
 
                 <div class="overlay">
 

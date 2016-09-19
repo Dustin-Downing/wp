@@ -26,10 +26,10 @@ define('DB_NAME', 'wok');
 define('DB_USER', 'dustin');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'ec2-54-218-99-86.us-west-2.compute.amazonaws.com');
+define('DB_PASSWORD', 'LayrRocks123!');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'ec2-54-218-99-86.us-west-2.compute.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
